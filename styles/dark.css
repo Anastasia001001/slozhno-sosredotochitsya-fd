@@ -1,8 +1,8 @@
 :root.theme-dark {
-  --title-color: #DB00FF;
+  --title-color: #db00ff;
   --accent-color: #ff0070;
   --accent-text-color: #000028;
-  --text-color: #F1B2CE;
+  --text-color: #f1b2ce;
   --bg-image: url(../images/cover-image-dark.png);
   --button-hover-color: rgba(255, 0, 112, 0.4);
   --button-text-color: #ff0070;
@@ -13,4 +13,8 @@
 
 .theme-dark .page {
   --bg-image: url(../images/cover-image-dark.png);
+}
+
+.theme-dark .rec {
+  display: block;
 }
