@@ -13,9 +13,9 @@
 .header {
   display: grid;
   grid-template-rows: 34.13vh 36.976vh 27.395vh;
+  min-height: 668px;
   padding: 10px;
   block-size: 100vh;
-  min-height: 668px;
 }
 
 .decorated-zone {
@@ -376,9 +376,6 @@
 
   .div__article__distractors {
     display: grid;
-    grid-template-columns: repeat(
-      auto-fit,
-      minmax(calc(100vw * (1 / 3) - 80px), 1fr)
-    );
+    grid-template-columns: repeat(3, 1fr);
   }
 }
